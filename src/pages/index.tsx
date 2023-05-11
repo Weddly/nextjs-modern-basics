@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen bg-black text-white text-4xl">
       <Icon24Hours size={100} strokeWidth={0.5} />
-      <span>Fundamentos</span>
+      <span>Fundaments</span>
     </div>
   )
 }
