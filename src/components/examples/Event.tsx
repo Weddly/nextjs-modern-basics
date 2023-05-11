@@ -15,7 +15,6 @@ export default function Event() {
     return(
         <div className={`
             flex flex-col gap-4 items-center justify-center
-            bg-black text-white h-screen
         `}>
             <span className="text-3xl">
                 <b>Value:</b> {value}
