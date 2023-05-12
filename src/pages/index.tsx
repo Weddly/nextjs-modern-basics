@@ -53,6 +53,10 @@ export default function Home() {
             className="bg-gradient-to-r from-blue-400 to-purple-500">
             Using State
           </MenuItem>
+          <MenuItem url="/examples/context" icon={<IconDatabase />}
+            className="bg-gradient-to-r from-blue-400 to-purple-500">
+            Shared Context
+          </MenuItem>
         </Row> 
       </Menu>
     </Page>
