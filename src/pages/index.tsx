@@ -2,7 +2,7 @@ import Row from "@/components/layout/Row"
 import Menu from "@/components/template/Menu"
 import MenuItem from "@/components/template/MenuItem"
 import Page from "@/components/template/Page"
-import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconDatabase, IconNumber, IconNumbers, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
+import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconDatabase, IconNumber, IconNumbers, IconRotate2, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
 
 export default function Home() {
   return (
@@ -56,6 +56,10 @@ export default function Home() {
           <MenuItem url="/examples/context" icon={<IconDatabase />}
             className="bg-gradient-to-r from-blue-400 to-purple-500">
             Shared Context
+          </MenuItem>
+          <MenuItem url="/examples/onSale" icon={<IconRotate2 />}
+            className="bg-gradient-to-r from-blue-400 to-purple-500">
+            ServerSide Content
           </MenuItem>
         </Row> 
       </Menu>
