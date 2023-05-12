@@ -2,7 +2,7 @@ import Row from "@/components/layout/Row"
 import Menu from "@/components/template/Menu"
 import MenuItem from "@/components/template/MenuItem"
 import Page from "@/components/template/Page"
-import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
+import { IconArrowMoveDown, IconArrowMoveUp, IconArrowsDiff, IconClick, IconClock, IconComponents, IconDatabase, IconNumber, IconNumbers, IconSitemap, IconSourceCode, IconTable } from "@tabler/icons-react"
 
 export default function Home() {
   return (
@@ -48,6 +48,12 @@ export default function Home() {
             Indirect Communication
           </MenuItem>
         </Row>
+        <Row>
+          <MenuItem url="/examples/state" icon={<IconNumbers />}
+            className="bg-gradient-to-r from-blue-400 to-purple-500">
+            Using State
+          </MenuItem>
+        </Row> 
       </Menu>
     </Page>
   )
